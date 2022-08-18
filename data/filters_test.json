@@ -1,0 +1,37 @@
+{
+    "price_range":{
+        "min": 0,
+        "max": 40000
+    },
+    "make":{
+        "standard":[
+            "Dodge",
+            "Kia"
+        ],
+        "luxury":[
+            "Acura",
+            "Audi",
+            "BMW",
+            "INFINITI",
+            "Lexus",
+            "Mercedes-Benz"
+        ],
+        "electric":[
+            "Tesla"
+        ],
+        "misc":[
+            
+        ]
+    },
+    "body_type":[
+        "Suv",
+        "Sedan",
+        "Hatchback",
+        "Truck",
+        "Wagon"
+    ],
+    "year":{
+        "min": 2015,
+        "max": 2022
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "price_range":{
+        "min": 0,
+        "max": 50000
+    },
+    "make":{
+        "standard":[
+            "Chevrolet",
+            "Chrysler",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Honda",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Mazda",
+            "Mercury",
+            "Mitsubishi",
+            "Nissan",
+            "Pontiac",
+            "Ram",
+            "Saab",
+            "Saturn",
+            "Scion",
+            "Subaru",
+            "Suzuki",
+            "Toyota",
+            "Volkswagen"
+        ],
+        "luxury":[
+            "Acura",
+            "Audi",
+            "BMW",
+            "Buick",
+            "Cadillac",
+            "INFINITI",
+            "Jaguar",
+            "Land Rover",
+            "Lexus",
+            "Lincoln",
+            "Maserati",
+            "Mercedes-Benz",
+            "Porsche",
+            "Volvo"
+        ],
+        "electric":[
+            "Polestar",
+            "Rivian",
+            "Tesla"
+        ],
+        "misc":[
+            "Alfa Romeo",
+            "FIAT",
+            "Genesis",
+            "HUMMER",
+            "MINI",
+            "smart"
+        ]
+    },
+    "body_type":[
+        "Suv",
+        "Sedan",
+        "Hatchback",
+        "Truck",
+        "Coupe",
+        "Minivan",
+        "Wagon",
+        "Convertible"
+    ],
+    "year":{
+        "min": 2000,
+        "max": 2022
+    }
+}
