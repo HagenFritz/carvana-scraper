@@ -3,36 +3,10 @@
         "min": 0,
         "max": 40000
     },
-    "make":{
-        "standard":[
-            "Chevrolet",
-            "Chrysler",
-            "Dodge",
-            "Ford",
-            "Honda",
-            "Hyundai",
-            "Jeep",
-            "Kia",
-            "Nissan",
-            "Subaru",
-            "Toyota",
-            "Volkswagen"
-        ],
-        "luxury":[
-            "Acura",
-            "Audi",
-            "BMW",
-            "INFINITI",
-            "Lexus",
-            "Mercedes-Benz"
-        ],
-        "electric":[
-            "Tesla"
-        ],
-        "misc":[
-            
-        ]
-    },
+    "make":[
+        "Alfa Romeo",
+        "Saab"
+    ],
     "body_type":[
         "Suv",
         "Sedan",
