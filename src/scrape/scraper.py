@@ -3,6 +3,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -82,5 +83,19 @@ class Scraper:
             self.wait.until(EC.visibility_of_element_located((By.XPATH, f"//{tagname}[@{attribute}='{value}']{subtag}"))).send_keys(text)
         except TimeoutException:
             self.wait.until(EC.visibility_of_element_located((By.XPATH, f"//{tagname}[@{attribute}='{value}']{subtag}"))).send_keys(text)
+
+        time.sleep(2)
+
+    def backspace_text(self, n, tagname, attribute, value, subtag=""):
+        """
+        
+        """
+        for _ in range(n):
+            try:
+                self.wait.until(EC.visibility_of_element_located((By.XPATH, f"//{tagname}[@{attribute}='{value}']{subtag}"))).send_keys(Keys.BACKSPACE)
+            except TimeoutException:
+                self.wait.until(EC.visibility_of_element_located((By.XPATH, f"//{tagname}[@{attribute}='{value}']{subtag}"))).send_keys(Keys.BACKSPACE)
+
+            time.sleep(0.5)
 
         time.sleep(2)
